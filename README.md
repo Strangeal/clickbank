@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://strangeal.github.io/Portfolio/)
+[Live Demo Link](https://strangeal.github.io/shin_capstone/)
 
 ## Get Started
 
