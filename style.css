@@ -29,7 +29,6 @@ body {
 }
 
 /* Hamburger menu */
-
 .top-nav {
   display: none;
 }
@@ -66,7 +65,6 @@ body {
 .navbar {
   min-height: 70px;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   padding: 0;
@@ -87,6 +85,15 @@ body {
 
 .nav-item .nav-link {
   color: var(--clr-white);
+}
+
+.nav-item .nav-link:hover {
+  color: var(--clr-dark);
+  transition: 0.7s ease;
+}
+
+.navbar .nav-brand {
+  display: none;
 }
 
 .nav-menu-main {
@@ -183,6 +190,13 @@ body {
   background-image: url(img/fe-pattern_bg.png);
 }
 
+.program h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--clr-gray);
+  padding: 1rem;
+}
+
 .program h2::before {
   content: '';
   background: var(--clr-orange);
@@ -204,7 +218,7 @@ body {
 
 .program-card {
   display: grid;
-  grid-template-columns: auto 1fr 2fr;
+  grid-template-columns: auto 1fr 1fr;
   align-items: center;
   cursor: pointer;
   padding: 1rem;
@@ -217,17 +231,18 @@ body {
   transition: 0.7s ease;
 }
 
-.program-text {
+/* program-text {
   display: flex;
   justify-content: center;
   color: var(--clr-gray);
   padding: 1rem;
-}
+} */
 
 .program-card h3 {
   color: var(--clr-orange);
   line-height: 35px;
   font-size: 0.8rem;
+  margin-left: 8px;
 }
 
 .program-card img {
@@ -242,7 +257,26 @@ body {
 }
 
 .program a {
-  text-decoration: underline;
+  font-size: 1px;
+  display: flex;
+  justify-content: center;
+  color: var(--clr-white);
+}
+
+.program a::before {
+  content: 'Join Clickbank 2022';
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 30px;
+  position: relative;
+  background-color: #ff3e25;
+  bottom: 1px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: var(--clr-white);
+  text-align: center;
 }
 
 /* Speakers */
@@ -448,7 +482,7 @@ body {
   }
 
   .program-card p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .program a {
@@ -626,13 +660,6 @@ body {
     margin: 4px;
   }
 
-  /* Cleaning */
-  .program-card:nth-child(n+4) {
-    display: flex;
-    align-content: center;
-    align-items: center;
-  }
-
   .program-card img {
     width: 60px;
     height: 60px;
@@ -695,6 +722,16 @@ body {
     align-items: center;
   }
 
+  .nav-brand {
+    color: var(--clr-dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .navbar .nav-brand {
+    display: block;
+  }
+
   .navbar .nav-item {
     margin: 0 15px;
   }
@@ -744,12 +781,6 @@ body {
   .navbar .nav-link:hover {
     color: var(--clr-orange);
     text-decoration: underline;
-  }
-
-  .nav-brand {
-    color: var(--clr-dark);
-    font-size: 1.5rem;
-    font-weight: 700;
   }
 
   .nav-brand span {
@@ -858,7 +889,7 @@ body {
 
   .program-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-content: center;
     padding: 2rem 0;
@@ -875,6 +906,10 @@ body {
   .program-card h3 {
     font-weight: 700;
     font-size: 1.2rem;
+  }
+
+  .program-card p {
+    font-weight: 600;
   }
 
   .program a {
