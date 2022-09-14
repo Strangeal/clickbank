@@ -231,13 +231,6 @@ body {
   transition: 0.7s ease;
 }
 
-/* program-text {
-  display: flex;
-  justify-content: center;
-  color: var(--clr-gray);
-  padding: 1rem;
-} */
-
 .program-card h3 {
   color: var(--clr-orange);
   line-height: 35px;
