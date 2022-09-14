@@ -25,8 +25,7 @@
 
 ## Screenshots 
 
-![Desktop Design](./desktopscreen1.png)
-![Mobile Design](./mobilescree.png)
+![Desktop Design](./img/desktopview.png)
 
 ## Get Started
 
