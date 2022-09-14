@@ -4,7 +4,7 @@
 
 # Microverse Capstone Project
 
-> This is a module 1: week 5 project in Microverse full stack course.
+> **Clickbank is an affiliate marketing platform with a vast affiliate marketplace. They enable businesses📈 with great products to connect with elite affiliates who can promote👩‍🎓 those products. They have e-commerce tools🧰 that helps product owners sell more with less work, and their marketplace helps marketers and aspiring😊 entrepreneurs looking for new ways to earn🤑 an income online!. For nearly 2️⃣5️⃣ years, ClickBank has been a trusted global🌐 partner for product sellers and affiliate marketers looking to build, market, and scale their businesses online.**
 
 
 ## Built With
@@ -90,10 +90,11 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+For Content Inspiration I would like to Acknowledge
+<a href="https://www.clickbank.com/" rel="noopener" target="_blank"><strong>ClickBack</strong></a> ❤️
 
-- Inspiration
-- etc
-
+For Design Inspiration I would like to Acknowledge
+<a href="https://www.behance.net/adagio07" rel="noopener" target="_blank"><strong>Cindy Shin</strong></a> ❤️
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
