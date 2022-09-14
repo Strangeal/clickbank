@@ -13,9 +13,20 @@
 - css
 - Javascript
 
+
 ## Live Demo
 
-[Live Demo Link](https://strangeal.github.io/shin_capstone/)
+[**See Project 🚀**](https://strangeal.github.io/shin_capstone/)
+
+
+## Video Demonstration
+
+[** Watch 😄 **](https://drive.google.com/file/d/1bm7f6Amoa8ATpR5l63DTtfm6wE2HDOCy/view?usp=sharing)
+
+## Screenshots 
+
+![Desktop Design](./desktopscreen1.png)
+![Mobile Design](./mobilescree.png)
 
 ## Get Started
 
