@@ -1,0 +1,484 @@
+/* About page */
+#content::after {
+  content: "\a";
+  white-space: pre;
+}
+
+/* front page */
+.about-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 5rem 1rem;
+  background-image: url(img/output-bg.png), url(img/black-red.svg), url(img/checkbox.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 100% 0, 76% 300px, 92% 400px;
+  background-size: cover, 100px 100px, 80px 80px;
+}
+
+.about-head .event-line h1 {
+  max-width: 100%;
+  line-height: 20px;
+  font-size: 1.2rem;
+}
+
+.event-contact p {
+  padding: 2rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--clr-dark);
+}
+
+.award p {
+  font-size: 0.9rem;
+  height: 90px;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+}
+
+.con1 p,
+.con2 p {
+  font-size: 1rem;
+}
+
+.about-head .event-line p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  line-height: 16px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.callnum span {
+  font-weight: 700;
+}
+
+/* Awards */
+.award {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  box-shadow: 2px 0 7px -5px var(--clr-dark);
+}
+
+.award h3 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.award h3::before {
+  content: '';
+  display: block;
+  position: relative;
+  top: 55px;
+  left: 140px;
+  width: 40px;
+  height: 1px;
+  background: var(--clr-orange);
+}
+
+.award .brand {
+  font-size: 2.2rem;
+  border: 2px solid var(--clr-black);
+  padding: 1rem 1.8rem;
+  line-height: 30px;
+}
+
+.award span {
+  font-size: 1rem;
+}
+
+/* Past conference */
+.past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.past-content h3 {
+  padding-bottom: 1rem;
+  line-height: 70px;
+  font-size: 1.5rem;
+}
+
+.past-content h3::before {
+  content: '';
+  display: block;
+  position: relative;
+  top: 60px;
+  left: 120px;
+  width: 40px;
+  height: 1px;
+  background: var(--clr-orange);
+}
+
+.past-content h6 {
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  color: var(--clr-dark);
+}
+
+.past-view {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 3rem 0;
+}
+
+.past .con1 {
+  width: 250px;
+  height: 160px;
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(252, 0, 0, 0.7)), url(img/conference1.jpeg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-white);
+}
+
+.con1 h3,
+.con2 h3 {
+  font-size: 2rem;
+}
+
+.past .con2 {
+  width: 250px;
+  height: 160px;
+  background: linear-gradient(to right, rgba(243, 2, 2, 0.7), rgba(252, 0, 0, 0.7)), url(img/conference2.jpeg);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-white);
+}
+
+/* Footer */
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 1.5rem;
+  align-items: center;
+  background-color: var(--clr-dark);
+}
+
+.about-info .info-content a,
+.about-info .info-content span,
+.about-info .info-credit,
+.about-info .info-credit a {
+  color: var(--clr-white);
+}
+
+
+/* 768px Screen breakpoint */
+@media screen and (min-width: 768px) {
+  /* front page */
+  .about-head {
+    padding: 5rem;
+  }
+
+  .about-head .event-line h1 {
+    padding: 0 7rem !important;
+    font-size: 2rem;
+  }
+
+  .event-contact p {
+    padding: 0 9rem !important;
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  /* Past conference */
+  .past-content h6 {
+    padding: 0 6rem !important;
+  }
+
+  .past .past-view {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section .past-view .con2,
+  section .past-view .con1 {
+    background-size: 300px !important;
+    width: 300px !important;
+    height: 200px !important;
+    padding: 0 2rem !important;
+  }
+
+  .con2 p,
+  .con1 p {
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  .about-info {
+    padding: 3rem 5rem;
+  }
+}
+
+/* 6600px Screen breakpoint */
+@media screen and (min-width: 600px) {
+  .about-head {
+    padding: 5rem 3rem;
+  }
+
+  .about-head .event-line h1 {
+    padding: 0 1.8rem;
+    font-size: 2rem;
+  }
+
+  .event-contact p {
+    padding: 0 2rem;
+  }
+
+  .about-head .event-line p {
+    line-height: 21px;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+
+  /* awards */
+  .award h3 {
+    line-height: 30px;
+    text-align: center;
+    font-size: 2.2rem;
+  }
+
+  .award h3::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 160px;
+    width: 40px;
+    height: 1px;
+    background: var(--clr-orange);
+  }
+
+  .award .brand {
+    font-size: 3.3rem;
+    padding: 2rem 1.8rem;
+    line-height: 35px;
+  }
+
+  /* Past conference */
+  .past-content h3 {
+    padding-top: 2.5rem;
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+
+  .past .past-content h6 {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .past-content h3::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 190px;
+    width: 50px;
+    height: 1px;
+    background: var(--clr-orange);
+  }
+
+  .past-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Footer */
+  .about-info {
+    padding: 3rem;
+  }
+}
+
+/* 480px Screen breakpoint */
+@media screen and (min-width: 480px) {
+  .about-head .event-line h1 {
+    /* padding: 0; */
+    font-size: 1.8rem;
+    line-height: 45px;
+  }
+
+  .event-contact p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+  }
+
+  .award p {
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    text-align: center;
+  }
+
+  .about-head .event-line p {
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    font-weight: 400;
+  }
+
+  /* Awards */
+  .award h3 {
+    font-size: 2rem;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .award h3::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 78px;
+    left: 245px;
+    width: 40px;
+    height: 1px;
+    background: var(--clr-orange);
+  }
+
+  /* Past conference */
+  .past-content h6 {
+    font-size: 1rem;
+    padding: 0 1.7rem;
+    font-weight: 600;
+  }
+
+  .past .past-view .con1,
+  .past .past-view .con2 {
+    background-size: 400px;
+    width: 400px;
+    height: 260px;
+  }
+}
+
+/* 375px Screen breakpoint */
+@media screen and (min-width: 375px) {
+  #content-abt::after {
+    content: "\a";
+    white-space: pre;
+  }
+
+  /* Past conference */
+  .past .con1,
+  .past .con2 {
+    background-size: 300px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .event-contact p {
+    font-size: 0.8rem;
+  }
+
+  .about-head .event-line p {
+    word-spacing: 2px;
+  }
+
+  /* Award */
+  .award h3 {
+    padding: 0 0.1rem;
+  }
+
+  /* past conference */
+  .past-content h6 {
+    word-spacing: 2px;
+    font-size: 0.9rem;
+  }
+}
+
+/* 1024px Screen breakpoint */
+@media screen and (min-width: 1024px) {
+  #content-abt {
+    display: none;
+  }
+
+  .about-head {
+    padding: 5rem 10rem;
+  }
+
+  .about-head .event-line h1 {
+    font-size: 2.5rem;
+  }
+
+  .event-contact p {
+    margin-bottom: 1rem;
+  }
+
+  .con1 p,
+  .con2 p {
+    font-size: 1.2rem;
+  }
+
+  .about-head .event-line p {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  /* Awards */
+  .award {
+    padding: 5rem 0;
+  }
+
+  .award h3::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 320px;
+    width: 40px;
+    height: 1px;
+    background: var(--clr-orange);
+  }
+
+  .award .brand {
+    line-height: 30px;
+  }
+
+  /* Past conference */
+  .past .past-content h6 {
+    font-size: 1rem;
+    word-spacing: 1px;
+  }
+
+  .past-view {
+    gap: 20px;
+    padding: 3rem 0;
+  }
+
+  .con1 h3,
+  .con2 h3 {
+    font-size: 3rem;
+  }
+
+  /* Footer */
+  .about-info {
+    padding: 3rem 10rem;
+  }
+}

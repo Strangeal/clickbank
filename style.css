@@ -85,10 +85,14 @@ body {
   width: auto;
 }
 
+.nav-item .nav-link {
+  color: var(--clr-white);
+}
+
 .nav-menu-main {
   display: block;
   position: absolute;
-  background: aqua;
+  background: var(--clr-orange);
   top: 0;
   left: -100%;
   line-height: 60px;
