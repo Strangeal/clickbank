@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[**See Project 🚀**](https://strangeal.github.io/shin_capstone/)
+[**See Project 🚀**](https://strangeal.github.io/clickbank/index.html)
 
 
 ## Video Demonstration
